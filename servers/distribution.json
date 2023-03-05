@@ -9,8 +9,8 @@
   "servers": [
     {
       "id": "neveaventure-1.12.2",
-      "name": "neveaventure (Minecraft 1.12.2)",
-      "description": "neveaventure Running Minecraft 1.12.2 (Forge v14.23.5.2859)",
+      "name": "Neve Aventure",
+      "description": "Vivez l'aventure minecraft moddé ultime!",
       "icon": null,
       "version": "1.0.0",
       "address": "74.208.53.167:25700",

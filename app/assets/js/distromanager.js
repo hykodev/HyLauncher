@@ -547,7 +547,9 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        const distroURL = 'https://raw.githubusercontent.com/hykodev/HyLauncher/main/servers/distribution.json'
+        //create rendom number to prevent caching
+        const rnd = Math.floor(Math.random() * 100000)
+        const distroURL = 'https://raw.githubusercontent.com/hykodev/HyLauncher/main/servers/distribution.json?t=' + rnd + '';
         const opts = {
             url: distroURL,
             timeout: 2500
