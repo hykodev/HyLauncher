@@ -1478,6 +1478,17 @@
           }
         },
         {
+          "id": "fossil.cfg",
+          "name": "fossil.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 8763,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fossil.cfg",
+            "MD5": "c643f04cca30fdc9fd5a0e731f82ed63",
+            "path": "config/fossil.cfg"
+          }
+        },
+        {
           "id": "fw.cfg",
           "name": "fw.cfg",
           "type": "File",
