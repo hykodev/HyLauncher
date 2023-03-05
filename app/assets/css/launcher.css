@@ -33,6 +33,9 @@ body, html, div {
     margin: 0px;
     padding: 0px;
 }
+body {
+    background-color: black;
+}
 
 /* Reset p presets. */
 p {
@@ -2970,13 +2973,13 @@ input:checked + .toggleSwitchSlider:before {
 
 /* User profile avatar container. */
 #avatarContainer {
-    border-radius: 50%;
-    border: 2px solid #cad7e1;
+    border-radius: 0;
+    border: none;
     box-sizing: border-box;
-    background: rgba(1, 2, 1, 0.5);
+    background: none;
     height: 70px;
     width: 70px;
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    box-shadow: none;
     overflow: hidden;
     position: relative;
     background-position: center;
@@ -2996,12 +2999,14 @@ input:checked + .toggleSwitchSlider:before {
     font-weight: bold;
     letter-spacing: 2px;
     background-color: rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
     -webkit-user-select: none;
     border: none;
     cursor: pointer;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 0;
+    display: none;
 }
 #avatarOverlay:hover,
 #avatarOverlay:focus {
@@ -3854,13 +3859,13 @@ input:checked + .toggleSwitchSlider:before {
 /* Server selection confirm button styles. */
 #serverSelectConfirm,
 #accountSelectConfirm {
-    background: none;
-    border: 1px solid #ffffff;
+    background: #f21010;
+    border: none;
     color: white;
     font-family: 'Avenir Medium';
     font-weight: bold;
-    border-radius: 2px;
-    padding: 0px 8.1px;
+    border-radius: 195px;
+    padding: 5px 25px;
     cursor: pointer;
     transition: 0.25s ease;
     min-height: 20.67px;
@@ -3869,13 +3874,15 @@ input:checked + .toggleSwitchSlider:before {
 #serverSelectConfirm:focus,
 #accountSelectConfirm:hover,
 #accountSelectConfirm:focus {
-    box-shadow: 0px 0px 10px 0px #fff;
+    box-shadow: none;
     outline: none;
+    background: #9b0a0a;
 }
 #serverSelectConfirm:active,
 #accountSelectConfirm:active {
-    border-color: rgba(255, 255, 255, 0.75);
+    border-color: none;
     color: rgba(255, 255, 255, 0.75);
+    background: #b30c0c;
 }
 
 /* Server selection cancel button styles. */
@@ -3940,7 +3947,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Stationary image for the spinner. */
 #loadCenterImage {
     position: absolute;
-    width: 277px;
+    width: 200px;
     height: auto;
 }
 
