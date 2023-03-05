@@ -9,7 +9,7 @@
   "bugs": {
     "url": "https://github.com/hykodev/HyLauncher/issues"
   },
-  "private": true,
+  "private": false,
   "main": "index.js",
   "scripts": {
     "start": "electron .",
