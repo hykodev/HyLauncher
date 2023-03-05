@@ -547,9 +547,9 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        //create rendom number to prevent caching
-        const rnd = Math.floor(Math.random() * 100000)
-        const distroURL = 'https://raw.githubusercontent.com/hykodev/HyLauncher/main/servers/distribution.json?t=' + rnd + '';
+        //prevent caching
+        const distroURL = 'https://raw.githubusercontent.com/hykodev/HyLauncher/main/servers/distribution.json?_=' + new Date().getTime();
+        
         const opts = {
             url: distroURL,
             timeout: 2500
@@ -579,16 +579,30 @@ exports.pullRemote = function(){
  */
 exports.pullLocal = function(){
     return new Promise((resolve, reject) => {
-        fs.readFile(DEV_MODE ? DEV_PATH : DISTRO_PATH, 'utf-8', (err, d) => {
-            if(!err){
-                data = DistroIndex.fromJSON(JSON.parse(d))
+        //get file from url 
+        const distroURL = 'https://raw.githubusercontent.com/hykodev/HyLauncher/main/servers/distribution.json?_=' + new Date().getTime();
+        const opts = {
+            url: distroURL,
+            timeout: 2500
+        }
+
+        request(opts, (error, resp, body) => {
+            if(!error){
+                try {
+                    data = DistroIndex.fromJSON(JSON.parse(body))
+                } catch (e) {
+                    reject(e)
+                    return
+                }
+
                 resolve(data)
                 return
             } else {
-                reject(err)
+                reject(error)
                 return
             }
         })
+
     })
 }
 

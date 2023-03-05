@@ -12,7 +12,7 @@
       "name": "Neve Aventure",
       "description": "Vivez l'aventure minecraft moddé ultime!",
       "icon": "https://raw.githubusercontent.com/hykodev/HyLauncher/main/servers/neveaventure.png",
-      "version": "1.0.0",
+      "version": "1.4.0",
       "address": "74.208.53.167:25700",
       "minecraftVersion": "1.12.2",
       "discord": {
