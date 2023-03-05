@@ -545,6 +545,16 @@
           }
         },
         {
+          "id": "fossilsarcheology:fossil:8.0.6@jar",
+          "name": "Fossils and Archeology Revival",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47388909,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/fossilsarcheology-8.0.6.jar",
+            "MD5": "24c727ca21c4e654e5e41a9358fcf6d9"
+          }
+        },
+        {
           "id": "com.hancinworld:fw:1.6.0@jar",
           "name": "Fullscreen Windowed",
           "type": "ForgeMod",
@@ -638,16 +648,6 @@
             "size": 6833969,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Joshuas-Christmas-Mod-1.12.2.jar",
             "MD5": "8d52d3fbd0ba74f0a3424e17ab9150d6"
-          }
-        },
-        {
-          "id": "org.jurassicraft:jurassicraft:2.1.23@jar",
-          "name": "JurassiCraft",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 22867406,
-            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/JurassiCraft-1.12.2-2.1.23.jar",
-            "MD5": "cc428cba596ca2ab66c02d5a1dee38eb"
           }
         },
         {
