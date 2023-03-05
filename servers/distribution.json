@@ -1394,9 +1394,9 @@
           "name": "config.txt",
           "type": "File",
           "artifact": {
-            "size": 1689,
+            "size": 1688,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/config.txt",
-            "MD5": "82447bd6dbc0c61a910b36a32b661d8e",
+            "MD5": "6881a72529ecdc96d34a71352998df1a",
             "path": "config/fancymenu/config.txt"
           }
         },
@@ -1416,9 +1416,9 @@
           "name": "Menu.txt",
           "type": "File",
           "artifact": {
-            "size": 2985,
+            "size": 2981,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/customization/Menu.txt",
-            "MD5": "42416724ac8c19c1814f6ce4cf3c888a",
+            "MD5": "0875d7c09f8873fef0929a20c63272eb",
             "path": "config/fancymenu/customization/Menu.txt"
           }
         },
