@@ -412,16 +412,6 @@
           }
         },
         {
-          "id": "com.blamejared:crafttweaker:1.12-4.1.20.685@jar",
-          "name": "CraftTweaker2",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1582329,
-            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/CraftTweaker2-1.12-4.1.20.685.jar",
-            "MD5": "582e770ec482fa118cb49482d0696472"
-          }
-        },
-        {
           "id": "com.creativemd:creativecore:1.10@jar",
           "name": "CreativeCore",
           "type": "ForgeMod",
@@ -542,16 +532,6 @@
             "size": 5200,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/FastLeafDecay-v14.jar",
             "MD5": "18096ffb7f58d94f8e5a7bf2ff160f0f"
-          }
-        },
-        {
-          "id": "net.shadowfacts:forgelin:1.8.4@jar",
-          "name": "Shadowfacts' Forgelin",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6278399,
-            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Forgelin-1.8.4.jar",
-            "MD5": "2da79fce72265eab0541e565636d389d"
           }
         },
         {
