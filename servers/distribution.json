@@ -382,6 +382,16 @@
           }
         },
         {
+          "id": "com.natamus:collective:3.0@jar",
+          "name": "Collective",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 129073,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/collective-1.12.2-3.0.jar",
+            "MD5": "b5ca96a015a58fdc8afa2973abe7b0b0"
+          }
+        },
+        {
           "id": "com.fuzs:consolehud:1.4.1@jar",
           "name": "Console HUD",
           "type": "ForgeMod",
@@ -399,6 +409,16 @@
             "size": 9722538,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/controllable-1.12.2-0.6.1.jar",
             "MD5": "8860d72a1f7593b48832d4375fcbd443"
+          }
+        },
+        {
+          "id": "com.blamejared:crafttweaker:1.12-4.1.20.685@jar",
+          "name": "CraftTweaker2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1582329,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/CraftTweaker2-1.12-4.1.20.685.jar",
+            "MD5": "582e770ec482fa118cb49482d0696472"
           }
         },
         {
@@ -522,6 +542,16 @@
             "size": 5200,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/FastLeafDecay-v14.jar",
             "MD5": "18096ffb7f58d94f8e5a7bf2ff160f0f"
+          }
+        },
+        {
+          "id": "net.shadowfacts:forgelin:1.8.4@jar",
+          "name": "Shadowfacts' Forgelin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6278399,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Forgelin-1.8.4.jar",
+            "MD5": "2da79fce72265eab0541e565636d389d"
           }
         },
         {
