@@ -382,6 +382,16 @@
           }
         },
         {
+          "id": "mods.coffeespawner:coffeespawner:1.12-1.0.2@jar",
+          "name": "Coffee Spawner",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28654,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/CoffeeSpawner-1.12-1.0.2.jar",
+            "MD5": "e66719eb33e10addf5b1e66f08856c14"
+          }
+        },
+        {
           "id": "com.natamus:collective:3.0@jar",
           "name": "Collective",
           "type": "ForgeMod",
