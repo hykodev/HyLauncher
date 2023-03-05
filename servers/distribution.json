@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://hyko.ca/feed/",
+  "rss": "https://hylauncher.hyko.ca/feed/",
   "discord": {
     "clientId": "1081746910290911323",
     "smallImageText": "HyLauncher",
