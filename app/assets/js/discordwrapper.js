@@ -13,7 +13,7 @@ exports.initRPC = function(genSettings, servSettings, initialDetails = 'Waiting 
 
     activity = {
         details: initialDetails,
-        state: 'Server: ' + servSettings.shortId,
+        state: servSettings.largeImageText,
         largeImageKey: servSettings.largeImageKey,
         largeImageText: servSettings.largeImageText,
         smallImageKey: genSettings.smallImageKey,
