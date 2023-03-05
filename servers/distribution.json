@@ -17,8 +17,8 @@
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "1081746910290911323",
-        "largeImageText": "HyLauncher",
-        "largeImageKey": "logo"
+        "largeImageText": "Neve Aventure",
+        "largeImageKey": "neveaventure"
       },
       "mainServer": false,
       "autoconnect": false,
@@ -266,23 +266,16 @@
           ]
         },
         {
-          "id": "org.spongepowered.asm.launch:_mixinbootstrap:1.1.0@jar",
-          "name": "_MixinBootstrap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1119478,
-            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/_MixinBootstrap-1.1.0.jar",
-            "MD5": "9df0dc628ebcd787270f487fbbf8157a"
-          }
-        },
-        {
           "id": "com.creativemd:ambientsounds:3.0@jar",
           "name": "AmbientSounds",
           "type": "ForgeMod",
           "artifact": {
             "size": 76507808,
-            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/AmbientSounds_v3.1.5_mc1.12.2.jar",
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/optionalon/AmbientSounds_v3.1.5_mc1.12.2.jar",
             "MD5": "00e18dcf5bc02157a863c97dc36ac4aa"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -361,8 +354,21 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 16146,
-            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Blur-Mod-1.12.2.jar",
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/optionalon/Blur-Mod-1.12.2.jar",
             "MD5": "fe6c57af5be36a9ed96f8ff7de61bbd1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.natamus:bouncierbeds:1.0@jar",
+          "name": "Bouncier Beds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6999,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/bouncierbeds_1.12.2-1.0.jar",
+            "MD5": "202c8f50a2fc23a930c8c6a086ad6d74"
           }
         },
         {
@@ -441,8 +447,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 102000,
-            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Dynamic-Lights-Mod-1.12.2.jar",
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/optionalon/Dynamic-Lights-Mod-1.12.2.jar",
             "MD5": "bbf46497e737f88bbfeb8cce74fb3099"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -506,13 +515,26 @@
           }
         },
         {
+          "id": "net.olafkeijsers:fastleafdecay:v14@jar",
+          "name": "FastLeafDecay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5200,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/FastLeafDecay-v14.jar",
+            "MD5": "18096ffb7f58d94f8e5a7bf2ff160f0f"
+          }
+        },
+        {
           "id": "com.hancinworld:fw:1.6.0@jar",
           "name": "Fullscreen Windowed",
           "type": "ForgeMod",
           "artifact": {
             "size": 18396,
-            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/FullscreenWindowed-1.12-1.6.0.jar",
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/optionalon/FullscreenWindowed-1.12-1.6.0.jar",
             "MD5": "c7679200bdf1f6cb71361555407a4c7f"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -523,6 +545,16 @@
             "size": 10011886,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/FutureVersions+v1.3.1.jar",
             "MD5": "e2d83e1bb81d3c4f3a1c905a52cdaade"
+          }
+        },
+        {
+          "id": "com.polipo.exp:giacomos_exp:1.0@jar",
+          "name": "Exp Seedling Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 71247,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/GiacomosExperienceSeedling-1.12.2-1.2.2.jar",
+            "MD5": "22c340d64838f6493e0335c17756e27e"
           }
         },
         {
@@ -563,6 +595,29 @@
             "size": 1706638,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/java-discord-rpc-2.0.1-all.jar",
             "MD5": "92343e46f9dab69c143c283c856f2eb3"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.301@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 653211,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/optionalon/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.dorian2712:jobs:1.4@jar",
+          "name": "Jobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 191315,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/jobs-1.4.jar",
+            "MD5": "cdb8aaedf8b6fb306b6be2d39c4da172"
           }
         },
         {
@@ -616,6 +671,36 @@
           }
         },
         {
+          "id": "com.mcwbridges.kikoz:mcwbridges:1.0.6@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 373298,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/mcw-bridges-1.0.6b-mc1.12.2.jar",
+            "MD5": "b25ba955975fe5ac94a0f53880b05987"
+          }
+        },
+        {
+          "id": "net.minecraftearthmod:minecraft_earth_mod:1.1.6.1@jar",
+          "name": "Minecraft Earth Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 934088,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/MinecraftEarthModOldEdition-1.1.6.2.jar",
+            "MD5": "906cb761cd0ac5311ccf3f46248a26ec"
+          }
+        },
+        {
+          "id": "org.spongepowered.asm.launch:mixinbootstrap:1.1.0@jar",
+          "name": "MixinBootstrap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1119478,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/MixinBootstrap-1.1.0.jar",
+            "MD5": "9df0dc628ebcd787270f487fbbf8157a"
+          }
+        },
+        {
           "id": "atomicstryker.multimine:AS_MultiMine:1.6.2@jar",
           "name": "Multi Mine",
           "type": "ForgeMod",
@@ -651,8 +736,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 166981,
-            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Neve-Music-1.2.2.jar",
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/optionalon/Neve-Music-1.2.2.jar",
             "MD5": "8a9151c3d6d6fdf2476d43a5c7364a60"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -733,6 +821,16 @@
             "size": 124729,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/TreeChopper-1.12.2-1.2.4.jar",
             "MD5": "56dfb51a864cb3355f0f04cde27e44d6"
+          }
+        },
+        {
+          "id": "xyz.tcreopargh:versioner:1.0.3@jar",
+          "name": "Versioner",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 99944,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/versioner-1.0.3.jar",
+            "MD5": "5d4ddf6d60a069622ca9c168d3020723"
           }
         },
         {
