@@ -1394,9 +1394,9 @@
           "name": "config.txt",
           "type": "File",
           "artifact": {
-            "size": 1688,
+            "size": 1689,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/config.txt",
-            "MD5": "6881a72529ecdc96d34a71352998df1a",
+            "MD5": "82447bd6dbc0c61a910b36a32b661d8e",
             "path": "config/fancymenu/config.txt"
           }
         },
