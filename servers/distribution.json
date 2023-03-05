@@ -874,13 +874,13 @@
           }
         },
         {
-          "id": "xaero.minimap:xaerominimap:22.16.0@jar",
+          "id": "xaero.minimap:xaerominimap:23.2.0@jar",
           "name": "Xaero's Minimap",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1412988,
-            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Xaeros_Minimap_22.16.0_Forge_1.12.jar",
-            "MD5": "eb8d703436191b0a9b54ed8098b6feeb"
+            "size": 1496431,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Xaeros_Minimap_23.2.0_Forge_1.12.jar",
+            "MD5": "065f35e3dbb400ff6b138f8f4a620678"
           }
         },
         {
