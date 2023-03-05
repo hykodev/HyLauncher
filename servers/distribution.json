@@ -6,7 +6,7 @@
     "smallImageText": "HyLauncher",
     "smallImageKey": "logo"
   },
-  "servers": [
+  "servers": [ 
     {
       "id": "neveaventure-1.12.2",
       "name": "Neve Aventure",
