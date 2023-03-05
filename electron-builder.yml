@@ -48,4 +48,4 @@ linux:
 
 directories:
   buildResources: 'build'
-  output: 'dist'
+  output: 'release'
