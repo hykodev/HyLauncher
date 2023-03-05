@@ -641,6 +641,16 @@
           }
         },
         {
+          "id": "org.jurassicraft:jurassicraft:2.1.23@jar",
+          "name": "JurassiCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22867406,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/JurassiCraft-1.12.2-2.1.23.jar",
+            "MD5": "cc428cba596ca2ab66c02d5a1dee38eb"
+          }
+        },
+        {
           "id": "de.keksuccino:konkrete:1.12.2@jar",
           "name": "Konkrete_1.1.5_MC_1.12",
           "type": "ForgeMod",
