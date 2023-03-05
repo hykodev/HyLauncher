@@ -854,16 +854,6 @@
           }
         },
         {
-          "id": "xyz.tcreopargh:versioner:1.0.3@jar",
-          "name": "Versioner",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 99944,
-            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/versioner-1.0.3.jar",
-            "MD5": "5d4ddf6d60a069622ca9c168d3020723"
-          }
-        },
-        {
           "id": "net.blay09.mods:waystones:4.1.0@jar",
           "name": "Waystones",
           "type": "ForgeMod",
