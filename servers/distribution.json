@@ -1,19 +1,1573 @@
 {
-    "meta": {
-      "version": "1.0.0",
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "1081746910290911323",
+    "smallImageText": "HyLauncher",
+    "smallImageKey": "logo"
+  },
+  "servers": [
+    {
+      "id": "neveaventure-1.12.2",
       "name": "neveaventure (Minecraft 1.12.2)",
-      "description": "neveaventure Running Minecraft 1.12.2 (Forge v14.23.5.2838)",
-      "address": "localhost:25565",
+      "description": "neveaventure Running Minecraft 1.12.2 (Forge v14.23.5.2859)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "74.208.53.167:25700",
+      "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "1081746910290911323",
+        "largeImageText": "HyLauncher",
+        "largeImageKey": "logo"
       },
       "mainServer": false,
-      "autoconnect": false
-    },
-    "forge": {
-      "version": "14.23.5.2838"
-    },
-    "untrackedFiles": []
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466108,
+            "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
+            "url": "https://hyko.ca/files/hylauncher/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2859",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 12345,
+                "MD5": "1959bb357e54a9666dd80d744b524639",
+                "url": "https://hyko.ca/files/hylauncher/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://hyko.ca/files/hylauncher/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "org.spongepowered.asm.launch:_mixinbootstrap:1.1.0@jar",
+          "name": "_MixinBootstrap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1119478,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/_MixinBootstrap-1.1.0.jar",
+            "MD5": "9df0dc628ebcd787270f487fbbf8157a"
+          }
+        },
+        {
+          "id": "com.creativemd:ambientsounds:3.0@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76507808,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/AmbientSounds_v3.1.5_mc1.12.2.jar",
+            "MD5": "00e18dcf5bc02157a863c97dc36ac4aa"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:1.0.14@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33683,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/AppleSkin-mc1.12-1.0.14.jar",
+            "MD5": "b435860d5cfa23bc53d3b8e120be91d4"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:1.12.2-1.6.8@jar",
+          "name": "Aquaculture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 186686,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Aquaculture-1.12.2-1.6.8.jar",
+            "MD5": "168ee7ded8fa21d49700b99e8617c79b"
+          }
+        },
+        {
+          "id": "party.lemons:autoplant:1.0.0@jar",
+          "name": "AutoPlant",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4418,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/AutoPlant-Mod-1.12.2.jar",
+            "MD5": "257ce30165cc71aca72cb5f288b10f1b"
+          }
+        },
+        {
+          "id": "vazkii.arl:autoreglib:1.3-32@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 108306,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/AutoRegLib-1.3-32.jar",
+            "MD5": "4e5a4b881c27b1e4502a9a16c00882ad"
+          }
+        },
+        {
+          "id": "betteradvancements:betteradvancements:0.1.0@jar",
+          "name": "Better Advancements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 62668,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/BetterAdvancements-1.12.2-0.1.0.77.jar",
+            "MD5": "9009a4d080caf4d31e4ef8edba1f90cf"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettercaves:1.12.2-2.0.4@jar",
+          "name": "YUNG's Better Caves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 193604,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/bettercaves-1.12.2-2.0.4.jar",
+            "MD5": "ceb9c88ab5f8f3514a28ad7244b81757"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:7.0.1@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4702147,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
+            "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393"
+          }
+        },
+        {
+          "id": "com.tterrag:blur:1.0.4-14@jar",
+          "name": "Blur",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16146,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Blur-Mod-1.12.2.jar",
+            "MD5": "fe6c57af5be36a9ed96f8ff7de61bbd1"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:chameleon:1.12-4.1.3@jar",
+          "name": "Chameleon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96859,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Chameleon-1.12-4.1.3.jar",
+            "MD5": "e42efa8f4fd42d2918128a826b740e98"
+          }
+        },
+        {
+          "id": "com.fuzs:consolehud:1.4.1@jar",
+          "name": "Console HUD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 90859,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Console-HUD-Mod-1.12.2.jar",
+            "MD5": "3c38a5386c1e4a31f0dbb29f7bbcb7f3"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.controllable.asm:controllable:0.6.1@jar",
+          "name": "Controllable",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9722538,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/controllable-1.12.2-0.6.1.jar",
+            "MD5": "8860d72a1f7593b48832d4375fcbd443"
+          }
+        },
+        {
+          "id": "com.creativemd:creativecore:1.10@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1179376,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/CreativeCore_v1.10.34_mc1.12.2.jar",
+            "MD5": "02c162358c916a21c466d18e86cf909d"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:9.2.8@jar",
+          "name": "Default Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15056,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/DefaultOptions_1.12.2-9.2.8.jar",
+            "MD5": "5510673c0fad1e3b6617b3d97d54b3d5"
+          }
+        },
+        {
+          "id": "re.alwyn974.discordrichpresence:discordrichpresence:1.12.2@jar",
+          "name": "Discord Rich Presence",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6618,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Discord-1.12.2.jar",
+            "MD5": "26ceca7fe41489adbfcb9417d3ba0a65"
+          }
+        },
+        {
+          "id": "com.dainxt:dungeonsmod:1.12.2-1.0.8@jar",
+          "name": "Dungeons Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 893433,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/DungeonsMod-1.12.2-1.0.8.jar",
+            "MD5": "c5a59f6b18c1ea8d83efa75f01a411e8"
+          }
+        },
+        {
+          "id": "atomicstryker.dynamiclights.client:DynamicLights:1.4.9@jar",
+          "name": "Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 102000,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Dynamic-Lights-Mod-1.12.2.jar",
+            "MD5": "bbf46497e737f88bbfeb8cce74fb3099"
+          }
+        },
+        {
+          "id": "net.teamfruit:emojicord:1.1.1.39@jar",
+          "name": "Emojicord",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 407314,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Emojicord-Mod-1.12.2.jar",
+            "MD5": "0688ab2c92a1b0fb41b4291164afecf1"
+          }
+        },
+        {
+          "id": "mchorse.emoticons:emoticons:1.0.1-1.12.2@jar",
+          "name": "Emoticons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2058816,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/emoticons-1.0.1-1.12.2-dist.jar",
+            "MD5": "0d72d3d6eafddd6387280c5f7c77caeb"
+          }
+        },
+        {
+          "id": "ca.polary.neve:eudialite:1.2.16@jar",
+          "name": "Eudialite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 122192,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Eudialite.jar",
+            "MD5": "14a1e00761d822605c3df8ae3d53b67b"
+          }
+        },
+        {
+          "id": "com.pau101:fairylights:2.1.9@jar",
+          "name": "Fairy Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1160360,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Fairy-Lights-Mod-1.12.2.jar",
+            "MD5": "c4ca2d114048565e5c2411cf5691165a"
+          }
+        },
+        {
+          "id": "familiarfauna.core:familiarfauna:1.0.11@jar",
+          "name": "Familiar Fauna",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 381455,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/FamiliarFauna-1.12.2-1.0.11.jar",
+            "MD5": "a3bddaaba80627ff68f7c634c4098941"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:1.12.2@jar",
+          "name": "Fancymenu_2.0.3_MC_1.12",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 491227,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/fancymenu_2.0.3_MC_1.12-1.12.2.jar",
+            "MD5": "3adf845537033286c883ba62075ac2de"
+          }
+        },
+        {
+          "id": "com.hancinworld:fw:1.6.0@jar",
+          "name": "Fullscreen Windowed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18396,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/FullscreenWindowed-1.12-1.6.0.jar",
+            "MD5": "c7679200bdf1f6cb71361555407a4c7f"
+          }
+        },
+        {
+          "id": "net.mcreator:futureminecraf:1.3.1@jar",
+          "name": "Future Versions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10011886,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/FutureVersions+v1.3.1.jar",
+            "MD5": "e2d83e1bb81d3c4f3a1c905a52cdaade"
+          }
+        },
+        {
+          "id": "cpw.mods:inventorysorter:1.12.2-1.13.3+57@jar",
+          "name": "Inventory Sorter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47765,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/inventorysorter-1.12.2-1.13.3+57.jar",
+            "MD5": "03455284c7d8b20d9e5667798b605090"
+          }
+        },
+        {
+          "id": "cpw.mods:ironchest:1.12.2-7.0.72.847@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 956692,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/ironchest-1.12.2-7.0.72.847.jar",
+            "MD5": "743179bc3a8f50751efbb019acc759a9"
+          }
+        },
+        {
+          "id": "dk.zlepper:itlt:1.0.4@jar",
+          "name": "It's the little things",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14649,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Its-the-Little-Things-Mod-1.12.2.jar",
+            "MD5": "2a6771bd430409d3a379485e86a3853b"
+          }
+        },
+        {
+          "id": "generated.forgemod:java:discord-rpc-2.0.1-all@jar",
+          "name": "Java",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1706638,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/java-discord-rpc-2.0.1-all.jar",
+            "MD5": "92343e46f9dab69c143c283c856f2eb3"
+          }
+        },
+        {
+          "id": "joshuastone.joshxmas:joshxmas:1.12.2-1.2.0b@jar",
+          "name": "Joshua's Christmas Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6833969,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Joshuas-Christmas-Mod-1.12.2.jar",
+            "MD5": "8d52d3fbd0ba74f0a3424e17ab9150d6"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.12.2@jar",
+          "name": "Konkrete_1.1.5_MC_1.12",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 189142,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/konkrete_1.1.5_MC_1.12-1.12.2.jar",
+            "MD5": "cc8befb493dcc5878547830ed32b14ee"
+          }
+        },
+        {
+          "id": "net.ilexiconn:llibrary:1.7.20-1.12.2@jar",
+          "name": "LLibrary",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 884550,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/llibrary-1.7.20-1.12.2.jar",
+            "MD5": "218aefca8bd6bb8d9ff7dd877c1d277d"
+          }
+        },
+        {
+          "id": "ladysnake.lumen:lumen:0.4.0@jar",
+          "name": "Lumen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 235191,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/lumen-Beta+0.4.1.jar",
+            "MD5": "b8726852f0c84cb0ccc49c677a3b1a55"
+          }
+        },
+        {
+          "id": "mchorse.mclib:mclib:2.3.5-1.12.2@jar",
+          "name": "McLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 649252,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/mclib-2.3.5-1.12.2.jar",
+            "MD5": "30a64410b0cb66e19a02e3db6afcd998"
+          }
+        },
+        {
+          "id": "atomicstryker.multimine:AS_MultiMine:1.6.2@jar",
+          "name": "Multi Mine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64791,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/MultiMine-1.12.2.jar",
+            "MD5": "35dac79c1861d7689fb36af0d81236d1"
+          }
+        },
+        {
+          "id": "com.chaosthedude:naturescompass:1.12.2-1.5.0@jar",
+          "name": "Nature's Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 180077,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/NaturesCompass-1.12.2-1.5.0.jar",
+            "MD5": "7e9945eaa0b0c5038733f1e8b425e67c"
+          }
+        },
+        {
+          "id": "net.blay09.mods:netherportalfix:5.3.17@jar",
+          "name": "NetherPortalFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 109445,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/NetherPortalFix_1.12.1-5.3.17.jar",
+            "MD5": "97ff3e60aa9725cedbc64f19e179f813"
+          }
+        },
+        {
+          "id": "vazkii.ambience:ambience:1.1.2@jar",
+          "name": "Ambience",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 166981,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Neve-Music-1.2.2.jar",
+            "MD5": "8a9151c3d6d6fdf2476d43a5c7364a60"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2669107,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0"
+          }
+        },
+        {
+          "id": "com.guichaguri:pvptime:2.0.3@jar",
+          "name": "PvPTime",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17808,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/PvPTime-Mod-2.0.3.jar",
+            "MD5": "bd18b7951e32b96bafd43b9c5928e6c3"
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quark:r1.6-179@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3877577,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Quark-r1.6-179.jar",
+            "MD5": "dfcfa70d244f0435a5ff2b28037a324b"
+          }
+        },
+        {
+          "id": "sereneseasons.core:sereneseasons:1.2.18@jar",
+          "name": "Serene Seasons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 185187,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/SereneSeasons-1.12.2-1.2.18-universal.jar",
+            "MD5": "ef89fab62d1914ea0e25d2c31b453695"
+          }
+        },
+        {
+          "id": "snownee.snow:snowrealmagic:0.3.2@jar",
+          "name": "Snow! Real Magic!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30651,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/SnowRealMagic-0.3.2.jar",
+            "MD5": "86233f56a47633d3291c2611d75e4d9b"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:1.12.2-5.4.2@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 605947,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/StorageDrawers-1.12.2-5.4.2.jar",
+            "MD5": "0f658c7cba3e6793abbcb934b4810902"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawersextra:1.12-3.1.0@jar",
+          "name": "Storage Drawers Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 402870,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/StorageDrawersExtras-1.12-3.1.0.jar",
+            "MD5": "972063ce9ceb8df9af49e73858e557fa"
+          }
+        },
+        {
+          "id": "treechopper.core:treechopper:1.2.4@jar",
+          "name": "Tree Chopper",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 124729,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/TreeChopper-1.12.2-1.2.4.jar",
+            "MD5": "56dfb51a864cb3355f0f04cde27e44d6"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:4.1.0@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 178994,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Waystones_1.12.2-4.1.0.jar",
+            "MD5": "5159122949ffb79b80a341135673e8f8"
+          }
+        },
+        {
+          "id": "com.wumple:webslinger:2.2.4@jar",
+          "name": "WebSlinger",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 45980,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Web-Slinger-Mod-1.12.2.jar",
+            "MD5": "8fab15148338f0e65634bfde9f60ca17"
+          }
+        },
+        {
+          "id": "com.wumple:wumpleutil:2.12.9@jar",
+          "name": "Wumple Util Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 458547,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/wumpleutil-1.12.2-2.12.9.jar",
+            "MD5": "55a39cd08d503a7a771cdc3e7f5c562d"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:22.16.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1412988,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/forgemods/required/Xaeros_Minimap_22.16.0_Forge_1.12.jar",
+            "MD5": "eb8d703436191b0a9b54ed8098b6feeb"
+          }
+        },
+        {
+          "id": "ambience.properties",
+          "name": "ambience.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1079,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/ambience.properties",
+            "MD5": "754914384f35282240b579b54e9f515b",
+            "path": "ambience_music/ambience.properties"
+          }
+        },
+        {
+          "id": "01_Theme.mp3",
+          "name": "01_Theme.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 10433350,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/01_Theme.mp3",
+            "MD5": "3b791a717291781972ce9bcdbb5ace29",
+            "path": "ambience_music/music/01_Theme.mp3"
+          }
+        },
+        {
+          "id": "02_WhispersUnderTheStars.mp3",
+          "name": "02_WhispersUnderTheStars.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 5536958,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/02_WhispersUnderTheStars.mp3",
+            "MD5": "e64a5b279ad15af2c9a9f60b6787f197",
+            "path": "ambience_music/music/02_WhispersUnderTheStars.mp3"
+          }
+        },
+        {
+          "id": "03_Sendaria.mp3",
+          "name": "03_Sendaria.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 6966378,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/03_Sendaria.mp3",
+            "MD5": "44dbaffbfa35db0dd73c5c3411cef390",
+            "path": "ambience_music/music/03_Sendaria.mp3"
+          }
+        },
+        {
+          "id": "04_Legends.mp3",
+          "name": "04_Legends.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 10323636,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/04_Legends.mp3",
+            "MD5": "4ffd3210b3ac5104904f37e3d2e0eb05",
+            "path": "ambience_music/music/04_Legends.mp3"
+          }
+        },
+        {
+          "id": "05_UnderWood.mp3",
+          "name": "05_UnderWood.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 3152501,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/05_UnderWood.mp3",
+            "MD5": "8f36f01339eb47505064e6c8e3af146c",
+            "path": "ambience_music/music/05_UnderWood.mp3"
+          }
+        },
+        {
+          "id": "06_RidingSouth.mp3",
+          "name": "06_RidingSouth.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 3123244,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/06_RidingSouth.mp3",
+            "MD5": "00688872ee87b268e6f4837989b160eb",
+            "path": "ambience_music/music/06_RidingSouth.mp3"
+          }
+        },
+        {
+          "id": "07_ArrivingInTown.mp3",
+          "name": "07_ArrivingInTown.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 5080338,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/07_ArrivingInTown.mp3",
+            "MD5": "f214d9ea06369fc7daa3140649f9b6e2",
+            "path": "ambience_music/music/07_ArrivingInTown.mp3"
+          }
+        },
+        {
+          "id": "08_OurArrangement.mp3",
+          "name": "08_OurArrangement.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 10794885,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/08_OurArrangement.mp3",
+            "MD5": "6bf7235202e2dd18df8d8d880f14c967",
+            "path": "ambience_music/music/08_OurArrangement.mp3"
+          }
+        },
+        {
+          "id": "09_FeldenFleet.mp3",
+          "name": "09_FeldenFleet.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 7677954,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/09_FeldenFleet.mp3",
+            "MD5": "c637a9a572522910aab22857c0e7b151",
+            "path": "ambience_music/music/09_FeldenFleet.mp3"
+          }
+        },
+        {
+          "id": "10_Abbigail.mp3",
+          "name": "10_Abbigail.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 6224501,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/10_Abbigail.mp3",
+            "MD5": "cc3e83f3a91d97d9db34a30d2d61cfa0",
+            "path": "ambience_music/music/10_Abbigail.mp3"
+          }
+        },
+        {
+          "id": "11_Stables.mp3",
+          "name": "11_Stables.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 3688533,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/11_Stables.mp3",
+            "MD5": "2d185004770e5899dad4f1f01967b6f2",
+            "path": "ambience_music/music/11_Stables.mp3"
+          }
+        },
+        {
+          "id": "12_CatchingUp.mp3",
+          "name": "12_CatchingUp.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 3853627,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/12_CatchingUp.mp3",
+            "MD5": "607088cb691e57b12642863e7b48e2dd",
+            "path": "ambience_music/music/12_CatchingUp.mp3"
+          }
+        },
+        {
+          "id": "13_DeathAndDecisions.mp3",
+          "name": "13_DeathAndDecisions.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 8446999,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/13_DeathAndDecisions.mp3",
+            "MD5": "e23e869abd9139f5714809c0de4217e7",
+            "path": "ambience_music/music/13_DeathAndDecisions.mp3"
+          }
+        },
+        {
+          "id": "14_SendariaBurning.mp3",
+          "name": "14_SendariaBurning.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 9487717,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/14_SendariaBurning.mp3",
+            "MD5": "1dde4aae7cae6ecc0a1fa32d75da92d6",
+            "path": "ambience_music/music/14_SendariaBurning.mp3"
+          }
+        },
+        {
+          "id": "15_Luna.mp3",
+          "name": "15_Luna.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 3292517,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/15_Luna.mp3",
+            "MD5": "0950849edf5f5befce9fd665cf102b1a",
+            "path": "ambience_music/music/15_Luna.mp3"
+          }
+        },
+        {
+          "id": "16_FortZuka.mp3",
+          "name": "16_FortZuka.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 3742868,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/16_FortZuka.mp3",
+            "MD5": "ea8fc409f3ce6c64963d7b362a8f79ac",
+            "path": "ambience_music/music/16_FortZuka.mp3"
+          }
+        },
+        {
+          "id": "17_Ataraxia.mp3",
+          "name": "17_Ataraxia.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 5759521,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/17_Ataraxia.mp3",
+            "MD5": "3858b118118ddd5bc03c9caa47a9b85c",
+            "path": "ambience_music/music/17_Ataraxia.mp3"
+          }
+        },
+        {
+          "id": "18_HeartOfArdonia.mp3",
+          "name": "18_HeartOfArdonia.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 2644680,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/18_HeartOfArdonia.mp3",
+            "MD5": "24687c37774dd4f08e4c81f9a716c965",
+            "path": "ambience_music/music/18_HeartOfArdonia.mp3"
+          }
+        },
+        {
+          "id": "19_Magnorites.mp3",
+          "name": "19_Magnorites.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 3185938,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/19_Magnorites.mp3",
+            "MD5": "7742029e98901a36fe7d0a81e16bec69",
+            "path": "ambience_music/music/19_Magnorites.mp3"
+          }
+        },
+        {
+          "id": "20_APlaceToReturnTo.mp3",
+          "name": "20_APlaceToReturnTo.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 2623782,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/20_APlaceToReturnTo.mp3",
+            "MD5": "0633563a18b0a327e41b5bf874976149",
+            "path": "ambience_music/music/20_APlaceToReturnTo.mp3"
+          }
+        },
+        {
+          "id": "21_PassageOfTheGuardians.mp3",
+          "name": "21_PassageOfTheGuardians.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 2650950,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/21_PassageOfTheGuardians.mp3",
+            "MD5": "b045fef440871bb3b6265a7830b765fc",
+            "path": "ambience_music/music/21_PassageOfTheGuardians.mp3"
+          }
+        },
+        {
+          "id": "22_NotAFarmer.mp3",
+          "name": "22_NotAFarmer.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 2366738,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/22_NotAFarmer.mp3",
+            "MD5": "dcfe262cc7520fce8ddeb180a1b4e25b",
+            "path": "ambience_music/music/22_NotAFarmer.mp3"
+          }
+        },
+        {
+          "id": "23_HogTown.mp3",
+          "name": "23_HogTown.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 6916223,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/23_HogTown.mp3",
+            "MD5": "4ca1abb7b8943db74ff8ecd6f9b38337",
+            "path": "ambience_music/music/23_HogTown.mp3"
+          }
+        },
+        {
+          "id": "24_NorthWind.mp3",
+          "name": "24_NorthWind.mp3",
+          "type": "File",
+          "artifact": {
+            "size": 5424109,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/ambience_music/music/24_NorthWind.mp3",
+            "MD5": "5a35f01876e4de7084138f388ddc2857",
+            "path": "ambience_music/music/24_NorthWind.mp3"
+          }
+        },
+        {
+          "id": "Waystones.cfg",
+          "name": "Waystones.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 4754,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/Waystones.cfg",
+            "MD5": "124bbd86c4d6b3d6c7ba2e3bfbf89944",
+            "path": "config/Waystones.cfg"
+          }
+        },
+        {
+          "id": "misc.cfg",
+          "name": "misc.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 460,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/biomesoplenty/misc.cfg",
+            "MD5": "d5a32e14c0bc13dd492f18d07333d69a",
+            "path": "config/biomesoplenty/misc.cfg"
+          }
+        },
+        {
+          "id": "blur.cfg",
+          "name": "blur.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 717,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/blur.cfg",
+            "MD5": "21cfeb25c69a7f93f16b76628d793281",
+            "path": "config/blur.cfg"
+          }
+        },
+        {
+          "id": "consolehud.cfg",
+          "name": "consolehud.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 8147,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/consolehud.cfg",
+            "MD5": "2aeea423aef1a0a650e7b1edd0857d2f",
+            "path": "config/consolehud.cfg"
+          }
+        },
+        {
+          "id": "keybindings.txt",
+          "name": "keybindings.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2089,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/defaultoptions/keybindings.txt",
+            "MD5": "ff58dea08620cf09aa0214e6205ef26f",
+            "path": "config/defaultoptions/keybindings.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1476,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/defaultoptions/options.txt",
+            "MD5": "f291966b966b2587de543753261c93ad",
+            "path": "config/defaultoptions/options.txt"
+          }
+        },
+        {
+          "id": "optionsof.txt",
+          "name": "optionsof.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1434,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/defaultoptions/optionsof.txt",
+            "MD5": "73a23a1efa2251eb16621286d55c260e",
+            "path": "config/defaultoptions/optionsof.txt"
+          }
+        },
+        {
+          "id": "drp.cfg",
+          "name": "drp.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 363,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/drp.cfg",
+            "MD5": "47bcc579ac1a7947f6a34b963b277a46",
+            "path": "config/drp.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights.cfg",
+          "name": "dynamiclights.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 89,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/dynamiclights.cfg",
+            "MD5": "5c83c759a05f6d405c4a1dbc1e872370",
+            "path": "config/dynamiclights.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_dropitems.cfg",
+          "name": "dynamiclights_dropitems.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 511,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/dynamiclights_dropitems.cfg",
+            "MD5": "b686893591f09766abb508d0d13de163",
+            "path": "config/dynamiclights_dropitems.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_entityclasses.cfg",
+          "name": "dynamiclights_entityclasses.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 493,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/dynamiclights_entityclasses.cfg",
+            "MD5": "5c3291a57546c172aa4aaba1d429bc67",
+            "path": "config/dynamiclights_entityclasses.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_floodlights.cfg",
+          "name": "dynamiclights_floodlights.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 241,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/dynamiclights_floodlights.cfg",
+            "MD5": "9c6fd5fa35ff0c4fb3b25042165e3035",
+            "path": "config/dynamiclights_floodlights.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_mobequipment.cfg",
+          "name": "dynamiclights_mobequipment.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 422,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/dynamiclights_mobequipment.cfg",
+            "MD5": "75956e8b092504b84ece2ba7de12a4fc",
+            "path": "config/dynamiclights_mobequipment.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_onfire.cfg",
+          "name": "dynamiclights_onfire.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 202,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/dynamiclights_onfire.cfg",
+            "MD5": "d5e4a16f6f654533245300bcfe99c307",
+            "path": "config/dynamiclights_onfire.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_otherplayers.cfg",
+          "name": "dynamiclights_otherplayers.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 463,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/dynamiclights_otherplayers.cfg",
+            "MD5": "9a555c3d06fb08a155d1011043060764",
+            "path": "config/dynamiclights_otherplayers.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_theplayer.cfg",
+          "name": "dynamiclights_theplayer.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 430,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/dynamiclights_theplayer.cfg",
+            "MD5": "b6f796a3b824e00b0bc4903e43afd54e",
+            "path": "config/dynamiclights_theplayer.cfg"
+          }
+        },
+        {
+          "id": "emojicord.cfg",
+          "name": "emojicord.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1821,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/emojicord.cfg",
+            "MD5": "01aef1b6eae9a67a8cf130023dd35851",
+            "path": "config/emojicord.cfg"
+          }
+        },
+        {
+          "id": "fairylights.cfg",
+          "name": "fairylights.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 262,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fairylights.cfg",
+            "MD5": "06b7eea1dbf17414af003b20d9f03eae",
+            "path": "config/fairylights.cfg"
+          }
+        },
+        {
+          "id": "background-menu-version-1.3.1.png",
+          "name": "background-menu-version-1.3.1.png",
+          "type": "File",
+          "artifact": {
+            "size": 6771800,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/background-menu-version-1.3.1.png",
+            "MD5": "1c13d650712367e6d719351eff40c540",
+            "path": "config/fancymenu/background-menu-version-1.3.1.png"
+          }
+        },
+        {
+          "id": "background-menu.png",
+          "name": "background-menu.png",
+          "type": "File",
+          "artifact": {
+            "size": 1883976,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/background-menu.png",
+            "MD5": "6e20c1ee611fc64c328a4091f8489d95",
+            "path": "config/fancymenu/background-menu.png"
+          }
+        },
+        {
+          "id": "mainmenu.txt",
+          "name": "mainmenu.txt",
+          "type": "File",
+          "artifact": {
+            "size": 8,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/buttonscripts/mainmenu.txt",
+            "MD5": "5e3732f3a271b76aec1e6ab277cfc830",
+            "path": "config/fancymenu/buttonscripts/mainmenu.txt"
+          }
+        },
+        {
+          "id": "config.txt",
+          "name": "config.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1689,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/config.txt",
+            "MD5": "82447bd6dbc0c61a910b36a32b661d8e",
+            "path": "config/fancymenu/config.txt"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 68,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "5aa808ff1fc4ed810d2a2fa03ff6f853",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "Menu.txt",
+          "name": "Menu.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2985,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/customization/Menu.txt",
+            "MD5": "42416724ac8c19c1814f6ce4cf3c888a",
+            "path": "config/fancymenu/customization/Menu.txt"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 27782,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/locals/de_de.local",
+            "MD5": "ea2b54cc1f94905344ed002c0167219b",
+            "path": "config/fancymenu/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 47217,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/locals/en_us.local",
+            "MD5": "20bbf2a55649615974fb18b9a1f582ca",
+            "path": "config/fancymenu/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 14266,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/locals/pl_pl.local",
+            "MD5": "3d5ae1a193bcce626538f5a1c99c0ba1",
+            "path": "config/fancymenu/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 14666,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fancymenu/locals/pt_br.local",
+            "MD5": "0b2998c110b2e58f6fe147b41c005d24",
+            "path": "config/fancymenu/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "forge.cfg",
+          "name": "forge.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3955,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/forge.cfg",
+            "MD5": "25cea7340a4c432bfe91aab3e3955ec2",
+            "path": "config/forge.cfg"
+          }
+        },
+        {
+          "id": "fw.cfg",
+          "name": "fw.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1792,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/fw.cfg",
+            "MD5": "28f24543b69c8af8ec690959ebd54e13",
+            "path": "config/fw.cfg"
+          }
+        },
+        {
+          "id": "inventorysorter.cfg",
+          "name": "inventorysorter.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 255,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/inventorysorter.cfg",
+            "MD5": "d8f33c8f7fd5f6f235ef481514c826a1",
+            "path": "config/inventorysorter.cfg"
+          }
+        },
+        {
+          "id": "ironchest.cfg",
+          "name": "ironchest.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 165,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/ironchest.cfg",
+            "MD5": "bb77d8418e99b95e02c2e3bc51eba59f",
+            "path": "config/ironchest.cfg"
+          }
+        },
+        {
+          "id": "icon.png",
+          "name": "icon.png",
+          "type": "File",
+          "artifact": {
+            "size": 51966,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/itlt/icon.png",
+            "MD5": "7cf053bd0f87c6c87a2cca1a03665506",
+            "path": "config/itlt/icon.png"
+          }
+        },
+        {
+          "id": "itlt.cfg",
+          "name": "itlt.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1492,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/itlt.cfg",
+            "MD5": "79b6faa340a016ca76830e9029136974",
+            "path": "config/itlt.cfg"
+          }
+        },
+        {
+          "id": "multimine.cfg",
+          "name": "multimine.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 356,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/multimine.cfg",
+            "MD5": "b040c310e829a2895021f99965492d5a",
+            "path": "config/multimine.cfg"
+          }
+        },
+        {
+          "id": "quark.cfg",
+          "name": "quark.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 103880,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/quark.cfg",
+            "MD5": "bd5e068e6ef6cc85f7a884a28ef46d65",
+            "path": "config/quark.cfg"
+          }
+        },
+        {
+          "id": "splash.properties",
+          "name": "splash.properties",
+          "type": "File",
+          "artifact": {
+            "size": 376,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/splash.properties",
+            "MD5": "a2e47e8c15c6c55c0d91ae65834bd95f",
+            "path": "config/splash.properties"
+          }
+        },
+        {
+          "id": "storagedrawers.cfg",
+          "name": "storagedrawers.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2828,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/storagedrawers.cfg",
+            "MD5": "d7487172fdd567b12f272ff3b8020417",
+            "path": "config/storagedrawers.cfg"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2236,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/xaerominimap.txt",
+            "MD5": "0748054edbe15e0a942826fde79bf47b",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 4057,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/xaerominimap_entities.json",
+            "MD5": "7ca833db095574968af9e811702c98db",
+            "path": "config/xaerominimap_entities.json"
+          }
+        },
+        {
+          "id": "Sildur's Enhanced Default.zip",
+          "name": "Sildur's Enhanced Default.zip",
+          "type": "File",
+          "artifact": {
+            "size": 60416,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/shaderpacks/Sildur's%20Enhanced%20Default.zip",
+            "MD5": "c9550f3db67019330ffae0d2b7036d8f",
+            "path": "shaderpacks/Sildur's Enhanced Default.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders Extreme Volumetric Lighting.zip",
+          "name": "Sildur's Vibrant Shaders Extreme Volumetric Lighting.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142233,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20Extreme%20Volumetric%20Lighting.zip",
+            "MD5": "68350b0e0b3ce19f06d27cb46d3c9c72",
+            "path": "shaderpacks/Sildur's Vibrant Shaders Extreme Volumetric Lighting.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders Extreme.zip",
+          "name": "Sildur's Vibrant Shaders Extreme.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142226,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20Extreme.zip",
+            "MD5": "d1ffca0ba864095ac3bc9fc09e681c04",
+            "path": "shaderpacks/Sildur's Vibrant Shaders Extreme.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders High Motionblur.zip",
+          "name": "Sildur's Vibrant Shaders High Motionblur.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142233,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20High%20Motionblur.zip",
+            "MD5": "f0a32a7c8e0a982a6469133ce64e5e55",
+            "path": "shaderpacks/Sildur's Vibrant Shaders High Motionblur.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders High.zip",
+          "name": "Sildur's Vibrant Shaders High.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142236,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20High.zip",
+            "MD5": "d68576def48f06fcd6844bd7d16e6c2c",
+            "path": "shaderpacks/Sildur's Vibrant Shaders High.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders Lite.zip",
+          "name": "Sildur's Vibrant Shaders Lite.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142240,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20Lite.zip",
+            "MD5": "dbf8649079163ffe58771cb5659f2855",
+            "path": "shaderpacks/Sildur's Vibrant Shaders Lite.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders Medium.zip",
+          "name": "Sildur's Vibrant Shaders Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142239,
+            "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20Medium.zip",
+            "MD5": "63743d0322a718fa854f5f9f601fa3f8",
+            "path": "shaderpacks/Sildur's Vibrant Shaders Medium.zip"
+          }
+        }
+      ]
+    }
+  ]
 }

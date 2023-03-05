@@ -548,15 +548,13 @@ exports.pullRemote = function(){
     }
     return new Promise((resolve, reject) => {
         const distroURL = 'https://raw.githubusercontent.com/hykodev/HyLauncher/main/servers/distribution.json'
-        //const distroURL = 'https://gist.githubusercontent.com/dscalzi/53b1ba7a11d26a5c353f9d5ae484b71b/raw/'
         const opts = {
             url: distroURL,
             timeout: 2500
         }
-        const distroDest = path.join(ConfigManager.getLauncherDirectory(), 'distribution.json')
+
         request(opts, (error, resp, body) => {
             if(!error){
-                
                 try {
                     data = DistroIndex.fromJSON(JSON.parse(body))
                 } catch (e) {
@@ -564,15 +562,8 @@ exports.pullRemote = function(){
                     return
                 }
 
-                fs.writeFile(distroDest, body, 'utf-8', (err) => {
-                    if(!err){
-                        resolve(data)
-                        return
-                    } else {
-                        reject(err)
-                        return
-                    }
-                })
+                resolve(data)
+                return
             } else {
                 reject(error)
                 return
