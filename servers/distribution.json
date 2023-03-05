@@ -1240,9 +1240,9 @@
           "name": "drp.cfg",
           "type": "File",
           "artifact": {
-            "size": 363,
+            "size": 335,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/drp.cfg",
-            "MD5": "47bcc579ac1a7947f6a34b963b277a46",
+            "MD5": "5254e9707a8e40e5cc82d13aadb6ac0e",
             "path": "config/drp.cfg"
           }
         },
@@ -1539,7 +1539,7 @@
           "artifact": {
             "size": 1492,
             "url": "https://hyko.ca/files/hylauncher/servers/neveaventure-1.12.2/files/config/itlt.cfg",
-            "MD5": "79b6faa340a016ca76830e9029136974",
+            "MD5": "1b2b8c300ea604dc9205e7d10128dd4c",
             "path": "config/itlt.cfg"
           }
         },
